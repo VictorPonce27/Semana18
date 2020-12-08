@@ -7,6 +7,7 @@ private:
 public:
     Trivia();
     Trivia(string infoNueva);
+    string get_trivia(); 
 };
 
 Trivia::Trivia(){
@@ -15,6 +16,10 @@ Trivia::Trivia(){
 
 Trivia::Trivia(string infoNueva){
     info = infoNueva;
+}
+
+string Trivia::get_trivia(){
+    return info; 
 }
 
 #endif //Trivia_h 
