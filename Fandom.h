@@ -8,7 +8,9 @@ private:
     string categoria;
 public:
     Fandom();
-    Fandom(string nombreFan, string categoria); 
+    Fandom(string nombreFan, string categoria);
+    string getNombreFan();
+    string getCategoria();
 };
 
 Fandom::Fandom(){
@@ -19,6 +21,14 @@ Fandom::Fandom(){
 Fandom::Fandom(string nombreFan, string categoria){
     this->nombreFan = nombreFan;
     this->categoria = categoria;
+}
+
+string Fandom::getNombreFan(){
+    return nombreFan;
+}
+
+string Fandom::getCategoria(){
+    return categoria;
 }
 
 #endif // Fandom_h
