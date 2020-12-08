@@ -6,20 +6,20 @@ private:
     string info;
 public:
     Trivia();
-    Trivia(string infoNueva);
-    string get_trivia(); 
+    Trivia(string info);
+    string get_trivia();
 };
 
 Trivia::Trivia(){
-    info = "default";
+    this->info = "default";
 }
 
-Trivia::Trivia(string infoNueva){
-    info = infoNueva;
+Trivia::Trivia(string info){
+    this->info = info;
 }
 
 string Trivia::get_trivia(){
-    return info; 
+    return info;
 }
 
-#endif //Trivia_h 
+#endif //Trivia_h
