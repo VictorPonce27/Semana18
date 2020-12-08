@@ -8,20 +8,17 @@ private:
     string categoria;
 public:
     Fandom();
-    Fandom(string nomFanNueva, string categNueva);
-}
+    Fandom(string nombreFan, string categoria); 
+};
 
 Fandom::Fandom(){
     nombreFan = "default";
     categoria = "default";
 }
 
-Fandom::Fandom(string nomFanNueva, string categNueva){
-    nombreFan = nomFanNueva;
-    categoria = categNueva;
+Fandom::Fandom(string nombreFan, string categoria){
+    this->nombreFan = nombreFan;
+    this->categoria = categoria;
 }
-
-
-
 
 #endif // Fandom_h
