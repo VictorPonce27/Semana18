@@ -1,0 +1,10 @@
+Pikachu,Pokemon,Los Pikachu son pequeños pokemones que asemejan un raton, los circulos rojos que tienen en los cachetes son sacos donde almacenan la electricidad que utilizan para combatir."
+Joker - Batman 1989,DC Comics,En esta iteracion el nombre verdadero del Joker es Jack Napier, es un supervillano archienemigo de Batman."
+Rick Deckard,Blade Runner,Rick Deckard es un caza recompensas que trabaja con el departamento de policia de la ciudad de Los Angeles, su trabajo es retirar replicantes. "
+Hagrid,Harry Potter,Hagrid es el guardian del bosque que esta alado de Hogwarts la escuela de magos, Hagrid ayudo  a Harry Potter varias veces en su lucha contra las fuerzas obscuras."
+Peridot,Steven Universe,Peridot es miembro de las gemas de cristal que luchan para defender el mundo de fuerzas alienigenas.
+Pink Batman,Dc Comics,Bruce Wayne se convirtio en Batman cuando sus padres fueron asesinados enfrente de el saliendo de la opera. En esta ocasion Batman porta su traje clasico solo que rosa.
+Jake el Perro,Hora de Aventura,Jake el Perro es el compañero fiel de Finn el humano,  Jake puede estirar su cuerpo para hacerse mas grande o pequeño."
+Geral Of Rivia,The Witcher,Geralt es un Witcher, seres humanos geneticamente alterados entrenados desde una temprana edad para matar monstros."
+Lebron James,NBA,Lebron James juega para los Lakers de Los Angeles, es considerado uno de los mejores basquetbolistas de todos los tiempos."
+Darth Vader,Star Wars,Anakin Skywaker algun dia fue el elegido de la fuerza, pero el lado obscuro de la fuerza se apodero de el y lo convirtio en el enemigo numero uno de la galaxia."
