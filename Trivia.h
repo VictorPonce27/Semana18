@@ -1,24 +1,28 @@
 #ifndef Trivia_h
 #define Trivia_h
+#include<string> 
+using namespace std;
 
 class Trivia{
-private:
-    string info;
+protected:
+    std::string info;
+
 public:
+    Trivia(std::string info);
     Trivia();
-    Trivia(string info);
-    string get_trivia();
+    std::string get_trivia();
 };
 
 Trivia::Trivia(){
     this->info = "default";
 }
 
-Trivia::Trivia(string info){
+Trivia::Trivia(std::string info)
+{
     this->info = info;
 }
 
-string Trivia::get_trivia(){
+std::string Trivia::get_trivia(){
     return info;
 }
 

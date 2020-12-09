@@ -1,16 +1,17 @@
 #ifndef Fandom_h
 #define Fandom_h
 
+#include <string>
+using namespace std;
 
 class Fandom{
-private:
-    string nombreFan;
-    string categoria;
-public:
+protected:
+    std::string nombreFan;
+    std::string categoria;
+
+public: 
     Fandom();
-    Fandom(string nombreFan, string categoria);
-    string getNombreFan();
-    string getCategoria();
+    Fandom(std::string nombreFan, std::string categoria);
 };
 
 Fandom::Fandom(){
@@ -18,17 +19,9 @@ Fandom::Fandom(){
     categoria = "default";
 }
 
-Fandom::Fandom(string nombreFan, string categoria){
+Fandom::Fandom(std::string nombreFan, std::string categoria){
     this->nombreFan = nombreFan;
     this->categoria = categoria;
-}
-
-string Fandom::getNombreFan(){
-    return nombreFan;
-}
-
-string Fandom::getCategoria(){
-    return categoria;
 }
 
 #endif // Fandom_h
